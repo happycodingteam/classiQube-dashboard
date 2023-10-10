@@ -39,8 +39,58 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
+
+
 /*=========================================*/
-/*==========Start Header Section==========*/
+/*==========Start Login Section==========*/
+/*=========================================*/
+.main-login-section{
+    background: green;
+}
+.company-logo-area{}
+.company-logo-area .login-logo{
+    height: 140px;
+    width: 180px;
+}
+.company-logo-area .login-heading{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: normal;
+    color: #FFFFFF;
+    padding: 40px 0px;
+}
+.company-logo-area .adimn-text{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    color: #ffffff;
+}
+.login-form-area{}
+
+
+.login-form-area .sign-in-text{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
+    color: #172B4D;
+    padding: 40px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================*/
+/*==========Start Sidebar Section==========*/
 /*=========================================*/
 
 /* scrollbar edit start */
