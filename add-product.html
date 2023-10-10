@@ -106,27 +106,100 @@
     <div class="main_body">
         <div class="dashboard-heading">
             <h3 class="dashboard-heading-text">
-                Dashboard
+                Add Product
             </h3>
         </div>
-        <div class="dashboard-item-area">
-            <div class="dashboard-item">
-                <h5 class="counter-name">Total Product</h5>
-                <h1 class="total-text">80</h1>
-            </div> <!-- copy item-->
-            <div class="dashboard-item">
-                <h5 class="counter-name">Total Categories</h5>
-                <h1 class="total-text">3</h1>
-            </div> <!-- copy item-->
-            <div class="dashboard-item">
-                <h5 class="counter-name">Total Collection</h5>
-                <h1 class="total-text">20</h1>
-            </div> <!-- copy item-->
-            <div class="dashboard-item">
-                <h5 class="counter-name">Total User</h5>
-                <h1 class="total-text">1</h1>
-            </div> <!-- copy item-->
-        </div>
+     <div class="add-product-area">
+        <form class="add-product-form" action="" method="">
+            <div class="add-product-image-area">
+               <div class="form-group">
+                <label class="label-text" for="">Add Images</label>
+                <div class="image-add">
+                    <i  class="fa-regular fa-images img-icon"></i>
+                    <div class="drop-image">
+                        <i class="fa-solid fa-upload upload-icon"></i>
+                        <p class="drop-text">Drop your files here. or</p>
+                        <input class="browse-button" type="button" value="Browse">
+                    </div>
+                </div>
+                <div class="show-upload-image">
+                    
+                    <div class="upload-product-details">
+                        <img class="show-img" src="assets/images/user.jpg" alt="img">
+                        <div class="flex-box-one">
+                            <h6 class="img-name">Name.png</h6> 
+                            <p class="image-size">485 KB</p>
+                        </div>
+                       
+                    </div>
+                    <button class="delete-button">
+                        <i class="fa-solid fa-trash-can delete-icon"></i>
+                    </button>
+                   
+                </div>
+               </div>
+            </div>
+            <div class="add-product-details-area">
+                <div class="form-group">
+                    <label class="label-text" for="p-name">Product Name</label>
+                    <input class="input-box" type="text" name="" id="p-name" placeholder="Navy Blue Sneakers Shoe">
+                </div> 
+                <div class="form-group">
+                    <label class="label-text" for="">Category</label>
+                    <select class="input-box" name="" id="">
+                        <option class="input-box" value="">Desk</option>
+                        <option class="input-box" value="">Sopa</option>
+                        <option class="input-box" value="">Table</option>
+                        <option class="input-box" value="">Mix</option>
+                    </select>
+                    
+                </div>  
+                <div class="form-group">
+                    <label class="label-text" for="">Collection</label>
+                    <select class="input-box" name="" id="">
+                        <option class="input-box" value="">Bilnany</option>
+                        <option class="input-box" value="">Item 01</option>
+                        <option class="input-box" value="">Item 02</option>
+                        <option class="input-box" value="">Item 03</option>
+                    </select>
+                    
+                </div> 
+                <div class="form-group plus-postion">
+                    <label class="label-text" for="p-name">Measurement</label>
+                    <input class="input-box" type="text" name="" id="p-name" placeholder="1800*1600*750" style="font-weight: 800;">
+                    <button class="plus-button"><i class="fa-solid fa-plus"></i></button>
+
+                    <div class="show-measurement">
+                        <div class="button-item">
+                            <button class="show-measurement-text">1800*1600*750</button>
+                            <button class="delete-measurement">
+                                <i class="fa-solid fa-trash-can delete-icon"></i>
+                            </button>
+                        </div>
+                        <div class="button-item">
+                            <button class="show-measurement-text">2000*1500*750</button>
+                            <button class="delete-measurement">
+                                <i class="fa-solid fa-trash-can delete-icon"></i>
+                            </button>
+                        </div>
+                        <div class="button-item">
+                            <button class="show-measurement-text">Custom</button>
+                            <button class="delete-measurement">
+                                <i class="fa-solid fa-trash-can delete-icon"></i>
+                            </button>
+                        </div>
+                        
+                    </div>
+
+                </div>    
+            </div> <!-- End Add Product Details-->
+
+
+            <div class="publish-product-area">
+                <input class="publish-button" type="submit" value="Publish Product">
+            </div>
+        </form>
+     </div>
     </div>
 
     <!-- ====================================bootstrap link==================================== -->

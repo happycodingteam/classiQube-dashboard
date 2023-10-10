@@ -77,15 +77,17 @@ body {
 
 .header_wrapper {
 	position: fixed !important;
-	top: 20px;
+	top: 0px;
 	right: 0px;
 	width: 87.5%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	z-index: 5;
-	padding: 0px 40px;
-	border-radius: 20px;
+	padding: 30px 40px;
+
+    background: #c5c5c5fe;
+
 }
 .search_bar{
     background: #fff;
@@ -457,7 +459,7 @@ label #close {
 
 .main_body {
     margin: 40px;
-    margin-top: 100px;
+    margin-top: 140px;
     margin-left: 280px;
     background: #fff;
     padding: 10px 30px;
@@ -556,3 +558,294 @@ label #close {
         margin-bottom: 40px;
     }
 }
+
+
+/* ---------------------------------- ADD PRODUCT PAGE --------------------------------------- */
+.add-product-area{}
+.add-product-area .add-product-form{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.add-product-area .add-product-form .add-product-image-area{
+    flex-basis: 47%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #717171;
+}
+
+.form-group{}
+.form-group .label-text{
+    font-size: 16px;
+    line-height: normal;
+    color: #717171;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.image-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F5F6FA;
+    border: 1px dashed #007AFF;
+    padding: 163px;
+    margin-top: 20px;
+}
+.image-add .img-icon{
+    font-size: 130px;
+    color: #7b7b7b;
+    margin-bottom: 40px;
+}
+.image-add .drop-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-add .drop-image .upload-icon{
+    font-size: 20px;
+    color: #007AFF;
+}
+.image-add .drop-image .drop-text{
+    font-size: 16px;
+    line-height: normal;
+    color: #717171;
+    font-weight: 400;
+    margin: 0px 5px;
+
+}
+.image-add .drop-image .browse-button{
+    border: none;
+    background: none;
+    font-size: 16px;
+    line-height: normal;
+    color: #007AFF;
+    font-weight: 400;
+  
+}
+
+.show-upload-image{
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 1px solid #717171;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.show-upload-image .upload-product-details{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.show-upload-image .upload-product-details .show-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.flex-box-one{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.show-upload-image .upload-product-details .img-name{
+    font-size: 16px;
+    line-height: normal;
+    color: #717171;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.show-upload-image .upload-product-details .image-size{
+    font-size: 14px;
+    line-height: normal;
+    color: #717171;
+    font-weight: 400;
+}
+
+.show-upload-image .delete-button{
+    border: none;
+    background: none;
+}
+.show-upload-image .delete-button .delete-icon{
+    font-size: 25px;
+    color: #717171;
+}
+
+.add-product-area .add-product-form .add-product-details-area{
+    flex-basis: 47%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #717171;
+}
+
+
+.form-group{}
+.form-group .label-text{
+    display: block;
+}
+.form-group .input-box{
+    background: none;
+    border: none;
+    border: 1px solid #717171;
+    font-size: 18px;
+    line-height: normal;
+    color: #717171;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.plus-postion{
+    position: relative;
+}
+.plus-postion .plus-button{
+    border: none;
+    background: #2066F2;
+    padding: 15px 20px;
+    border-radius: 5px;
+    position: absolute;
+    right: 0;
+    top: 27px;
+}
+.plus-postion .plus-button .fa-plus{
+    font-size: 25px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.show-measurement{}
+.show-measurement .button-item{
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+    margin-bottom: 30px;
+    
+}
+.delete-measurement {
+border: none;
+	line-height: normal;
+	color: #fff;
+	font-weight: 700;
+	background: #F40000;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+    margin-left: 15px;
+
+}
+.show-measurement .button-item .show-measurement-text{
+    border: none;
+    background: #EFEFEF;
+    font-size: 18px;
+    line-height: normal;
+    color: #717171;
+    font-weight: 800;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+
+.publish-product-area{
+    text-align: right;
+
+    flex-basis: 100%;
+    margin: 40px 0px;
+}
+.publish-product-area .publish-button{
+    text-align: right;
+    border: none;
+    background: #2066F2;
+    font-size: 20px;
+    line-height: normal;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+@media all and (max-width:1199px){
+
+    .image-add {
+       
+        padding: 164px 40px;
+        margin-top: 20px;
+    }
+} 
+@media all and (max-width:991px) {
+
+    .add-product-area .add-product-form .add-product-image-area{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+
+    }
+    
+    .add-product-area .add-product-form .add-product-details-area{
+        flex-basis: 100%;
+       
+    }
+    
+}
+
+
+
+@media all and (max-width:767px){
+
+    .image-add {
+       
+        padding: 64px 40px;
+        margin-top: 20px;
+    }
+} 
+
+@media all and (max-width:576px){
+
+    .image-add {
+       
+        padding: 64px 10px;
+        margin-top: 20px;
+    }
+} 
+
+@media all and (max-width:410px){
+
+    .image-add {
+       
+        padding: 10px 10px;
+        margin-top: 20px;
+    }
+    .image-add .drop-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .image-add .drop-image .drop-text {
+        font-size: 16px;
+       
+        margin: 10px 0px;
+    }
+} 
+
+
+
+
+
+
+
+
+
