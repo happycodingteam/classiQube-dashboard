@@ -46,11 +46,15 @@ body {
 /*==========Start Login Section==========*/
 /*=========================================*/
 .main-login-section{
-    background: green;
+ 
 }
-.company-logo-area{}
+.company-logo-area{
+    background: green;
+    padding: 200px 140px;
+    height: 100vh;
+}
 .company-logo-area .login-logo{
-    height: 140px;
+    height: 120px;
     width: 180px;
 }
 .company-logo-area .login-heading{
@@ -66,7 +70,9 @@ body {
     line-height: normal;
     color: #ffffff;
 }
-.login-form-area{}
+.login-form-area{
+    padding: 200px 140px;
+}
 
 
 .login-form-area .sign-in-text{
@@ -79,12 +85,149 @@ body {
 
 
 
+.s-form-group{
+    position: relative;
+    margin-bottom: 35px;
+}
+.s-form-group .inputBox{
+    border: none;
+    background: none;
+    font-size: 17px;
+    font-weight: 400;
+    color: #717171;
+    border: 1px solid #717171;
+    border-radius: 25px;
+    padding: 15px 40px;
+    width: 100%;
+
+}
+.s-form-group .s-icon{
+    position: absolute;
+    top: 17px;
+    left: 15px;
+    font-size: 20px;
+    color: #717171;
+}
+
+
+.flex-box-seven{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-box-seven .s-form-group{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flex-box-seven .s-form-group .input-checkbox{
+    height: 22px;
+    width: 22px;
+    margin-right: 10px;
+}
+.flex-box-seven .s-form-group .remember{
+    font-size: 17px;
+    font-weight: 400;
+    color: #717171;
+
+    line-height: normal;
+}
+
+.flex-box-seven .s-form-group .forgot-password{
+    font-size: 17px;
+    font-weight: 400;
+    color: #717171;
+
+    line-height: normal;
+}
+
+
+.s-form-group .s-submit-button{
+    border: none;
+    background: #007AFF;
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding: 15px 40px;
+    width: 100%;
+    text-align: center;
+}
 
 
 
+@media all and (max-width:1199px) {
+    .company-logo-area {
+      
+        padding: 175px 85px;
+       
+    }
+    .login-form-area {
+        padding: 100px 85px;
+    }
+    .company-logo-area .login-heading {
+        font-size: 50px;
+       
+        padding: 40px 0px;
+    }
+}
 
 
+@media all and (max-width:991px) {
+    .company-logo-area {
+      
+        padding: 65px 35px;
+       
+    }
+    .login-form-area {
+        padding: 65px 35px;
+    }
+    .company-logo-area .login-heading {
+        font-size: 50px;
+       
+        padding: 40px 0px;
+    }
+}
 
+
+@media all and (max-width:767px) {
+    .company-logo-area {
+      
+        padding: 40px 20px;
+        height: unset;
+       
+    }
+    .login-form-area {
+        padding: 40px 20px;
+    }
+    .company-logo-area .login-heading {
+        font-size: 50px;
+       
+        padding: 40px 0px;
+    }
+}
+
+@media all and (max-width:380px) {
+    .company-logo-area {
+      
+        padding: 40px 20px;
+        height: unset;
+       
+    }
+    .login-form-area {
+        padding: 40px 20px;
+    }
+    .company-logo-area .login-heading {
+        font-size: 35px;
+       
+        padding: 20px 0px;
+    }
+    .login-form-area .sign-in-text {
+        font-size: 42px;
+      
+        padding: 40px 0px;
+    }
+}
 
 
 
@@ -890,6 +1033,237 @@ border: none;
         margin: 10px 0px;
     }
 } 
+
+
+
+
+/* ---------------------------------- ALL PRODUCT PAGE --------------------------------------- */
+
+.heading-flexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-product-button{
+    border: none;
+    background: #007AFF;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.add-product-button .p-icon{
+    font-size: 20px;
+    margin-right: 5px;
+
+    color: #ffffff;
+}
+.add-product-button .add-button-text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: normal;
+}
+
+
+
+
+
+
+.dashboard-product-show-area{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 1px solid #717171;
+    padding: 20px;
+}
+.flex-box-eight{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dashboard-product-image-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-right: 1px solid #717171;
+    padding-right: 20px;
+}
+.dashboard-product-image-area .dashboard-product-image{
+    height: 60px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+.dashboard-product-image-area .dashboard-product-name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #007AFF;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.dashboard-product-size-area{
+    padding-left: 20px;
+}
+.dashboard-product-size-area .dashboard-m-button-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dashboard-product-size-area .dashboard-m-button-item .dashboard-measurement-text{
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: normal;
+    text-transform: uppercase;
+   background: #8781CD;
+   padding: 7px 15px;
+   margin-right: 10px;
+   margin-bottom: 20px;
+}
+
+
+
+
+
+.dashboard-product-action-area{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.dashboard-product-action-area .action-button{
+    font-size: 22px;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.dashboard-product-action-area .action-button .d-product-delete{
+    color: #F40000;
+}
+
+.main-button{
+    font-size: 20px;
+    color: #172B4D;
+    font-weight: 700;
+    line-height: normal;
+}
+.second-button{
+    font-size: 17px;
+    color: #172B4D;
+    font-weight: 700;
+    line-height: normal;
+}
+.accordion-button:not(.collapsed) {
+	color: #172B4D;
+    background-color: #E4E4E4 !important;
+    box-shadow: none !important;
+}
+button:focus:not(:focus-visible) {
+	outline: 0;
+}
+.accordion-button:focus {
+	z-index: 3;
+	border-color: transparent;
+	outline: 0;
+	box-shadow: 0 0 0 .25rem rgba(13, 109, 253, 0);
+}
+.accordion-button::after {
+	flex-shrink: 0;
+	width: 1.25rem;
+	height: 1.25rem;
+	margin-left: auto;
+	content: "";
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-size: 1.25rem;
+	transition: transform .2s ease-in-out;
+	rotate: -90deg;
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+	transform: rotate(-90deg);
+}
+
+@media  all and (max-width:767px) {
+    .flex-box-eight{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+    .dashboard-product-image-area {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        border: none;
+        border-bottom: 1px solid #717171;
+        padding-right: 0px;
+    }
+    .dashboard-product-image-area .dashboard-product-name {
+       
+        margin-bottom: 0px;
+    }
+    .dashboard-product-size-area {
+        padding-left: 0;
+        padding-top: 25px;
+    }
+    .dashboard-product-show-area {
+        
+        padding: 20px;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .dashboard-product-action-area {
+       
+        padding-top: 20px;
+    }
+}
+
+
+@media all and (max-width:430px) {
+    .add-product-button .add-button-text {
+        font-size: 15px;
+       
+    }
+    .add-product-button .p-icon {
+        font-size: 15px;
+       
+    }
+    .add-product-button {
+      
+        padding: 10px 6px;
+        
+    }
+    .dashboard-heading .dashboard-heading-text {
+        font-size: 18px !important;
+       
+    }
+    .main-button{
+        font-size: 17px;
+      
+    }
+    .second-button{
+        font-size: 15px;
+        
+    }
+}
+
+
+
+
+
+
+
+
 
 
 
