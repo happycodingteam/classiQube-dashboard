@@ -1264,10 +1264,14 @@ button:focus:not(:focus-visible) {
 
 
 
+/* ---------------------------------------- EDI PRODUCT PAGE START -------------------------------- */
 
 
-
-
+.edit-product-item{
+    border: 1px solid #8680CD;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
 
 
 
