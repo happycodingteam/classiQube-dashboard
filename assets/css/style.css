@@ -1265,7 +1265,46 @@ button:focus:not(:focus-visible) {
 
 
 /* ---------------------------------------- EDI PRODUCT PAGE START -------------------------------- */
+.user-image-area{
+    position: relative;
+}
+.user-image-area .profile-pop-up {
+    display: none;
+	position: absolute;
+	bottom: -80px;
+	left: -30px;
+	width: 130%;
+    background: #fff;
+   
+    border-radius: 5px;
+    height: 60px;
+	
+	border-radius: 5px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.user-image-area .profile-pop-up .log-out-profile-button{
+    border: none;
+    background: none;
+    font-size: 18px;
+  font-weight: 500;
+  color: #172B4D;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 5px;
+  height: 60px;
+  display: flex;
+	justify-content: center;
+	align-items: center;
+    transition: 1s;
 
+}
+
+.user-image-area .profile-pop-up .log-out-profile-button:hover{
+    background: #172B4D;
+    color: #fff;
+    width: 100%;
+  
+}
 
 .edit-product-item{
     border: 1px solid #8680CD;
