@@ -1261,7 +1261,7 @@ button:focus:not(:focus-visible) {
 
 
 
-
+/*--------------------------------------------- New css ----------------------------------------- */
 
 
 /* ---------------------------------------- EDI PRODUCT PAGE START -------------------------------- */
@@ -1305,7 +1305,22 @@ button:focus:not(:focus-visible) {
     width: 100%;
   
 }
+@media all and (max-width:767px) {
+.user-image-area .profile-pop-up {
 
+        left: 25px;
+        width: 90%;
+       
+    }
+}
+@media all and (max-width:350px) {
+    .user-image-area .profile-pop-up {
+    
+            left: 10px;
+            width: 90%;
+           
+        }
+    }
 .edit-product-item{
     border: 1px solid #8680CD;
     border-radius: 10px;
@@ -1313,6 +1328,172 @@ button:focus:not(:focus-visible) {
 }
 
 
+/* ------------------------------------ All Category Page ------------------------------------ */
+.accordion-positon{
+   position: relative;
+}
+
+.category-action-button {
+	position: absolute;
+	top: 14px;
+	right: 50px;
+    z-index: 999999;
+}
+.category-button{
+    border: none;
+    background: none;
+    display: block;
+    margin-bottom: 20px;
+    color: #7b7b7b;
+}
+
+@media all and (max-width:767px) {
+    .category-action-button {
+        position: absolute;
+        top: -5px;
+        right: 40px;
+        z-index: 999999;
+    }
+}
+
+
+@media all and (max-width:470px) {
+    .accordion-positon .main-button{
+        font-size: 16px;
+    }
+    .add-category-heading{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .add-category-heading .add-product-button{
+        margin-top: 20px;
+    }
+    .accordion-positon .dashboard-product-action-area .action-button {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width:380px) {
+    .accordion-positon .main-button{
+        font-size: 15px;
+        padding: 16px 5px;
+    }
+
+    .accordion-positon .dashboard-product-action-area .action-button {
+        font-size: 15px;
+    }
+    .category-action-button {
+        position: absolute;
+        top: -5px;
+        right: 20px;
+        z-index: 999999;
+    }
+}
+
+
+/* ------------------------------------ Add Category Page ------------------------------------ */
+
+
+.add-category-area{}
+.add-c-form-group{
+    margin-bottom: 30px;
+}
+.add-c-form-group .c-label-text{
+    font-size: 17px;
+    font-weight: 500;
+    color: #172B4D;
+    line-height: normal;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.add-c-form-group .c-input-box{
+    background: none;
+    border: 1px solid #717171;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #172B4D;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.add-c-form-group .img-show-button{
+    background: #4D44B5;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+padding: 10px 20px;
+border-radius: 7px;
+color: #EFEFEF;
+}
 
 
 
+
+
+.add-image-show{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.add-image-show .c-add-img-show-item{
+   text-align: center;
+   background: #F3F4FF;
+   border-radius: 7px;
+   padding: 15px;
+   width: 180px;
+   margin: 25px;
+
+}
+.add-image-show .c-add-img-show-item .close{
+    text-align: right;
+    font-size: 16px;
+    color: #4D44B5;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+.add-image-show .c-add-img-show-item .img-item{
+    width: 120px;
+    height: 60px;
+
+}
+
+.add-image-show .c-add-img-show-item .sub-c-name{
+    font-size: 16px;
+    color: #4D44B5;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+
+
+.add-c-form-group .save-button{
+    background: #007AFF;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+padding: 10px 20px;
+border-radius: 7px;
+color: #EFEFEF;
+width: 120px;
+margin-top: 60px;
+}
+
+
+@media all and (max-width:767px) {
+    .add-c-form-group .c-input-box {
+      
+        width: 100%;
+    }
+    .add-c-form-group .img-show-button {
+      
+        margin-top: 20px;
+    }
+}
