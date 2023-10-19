@@ -1766,15 +1766,15 @@ button:focus:not(:focus-visible) {
 }
 
 .add-user-form-group .user-save {
-    background: #4D44B5;
-    border: none;
-    font-size: 22px;
-    font-weight: 700;
-    padding: 10px 20px;
-    border-radius: 7px;
-    color: #EFEFEF;
-    width: 170px;
-    margin-top: 70px;
+	background: #4D44B5;
+	border: none;
+	font-size: 22px;
+	font-weight: 700;
+	padding: 10px 20px;
+	border-radius: 35px;
+	color: #EFEFEF;
+	width: 170px;
+	margin-top: 70px;
 }
 
 @media all and (max-width:1199px) {
@@ -1915,4 +1915,36 @@ button:focus:not(:focus-visible) {
 }
 .sidebar .active-dropdown-list .sidebar-link{
     color: #172B4D !important;
+}
+
+
+/* -----------------------New css------------------- */
+.user-profile-area {
+	
+	height: 69px;
+}
+
+@media only screen and (max-width: 1800px) and (min-width: 1400px) {
+    .header_wrapper {
+       
+        width: 82.5%;
+        
+    }
+    .image-add {
+       
+        padding: 183px 40px;
+       
+    }
+}
+@media only screen and (max-width: 1399px) and (min-width: 1200px) {
+    .header_wrapper {
+       
+        width: 80.5%;
+        
+    }
+    .image-add {
+       
+        padding: 183px 10px;
+       
+    }
 }
