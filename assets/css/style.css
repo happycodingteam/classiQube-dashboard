@@ -1908,3 +1908,32 @@ button:focus:not(:focus-visible) {
        
     }
 }
+
+
+
+
+
+/* ------------- Entrie Page ------------------ */
+.dashboard-user-action-area {
+ text-align: center;
+}
+
+.dashboard-user-action-area .action-button {
+    font-size: 22px;
+    border: none;
+    background: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.dashboard-user-action-area .action-button .pdf-download {
+    color: #F40000;
+}
+.entrie-table .table-body tr td {
+	font-size: 17px;
+	font-weight: 400;
+	color: #172B4D;
+	line-height: normal;
+	padding: 15px;
+    padding-bottom: 0;
+}
